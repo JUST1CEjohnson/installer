@@ -91,7 +91,7 @@ variable "machine_cidr" {
 
 variable "bootstrap_ignition_path" {
   type    = string
-  default = "./bootstrap.ign"
+  default = "/okd/append-bootstrap.ign"
 }
 
 variable "bootstrap_complete" {
